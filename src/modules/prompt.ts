@@ -26,3 +26,4 @@ async function prompt(
 ): Promise<void> {
   const response: any = await getAnswer(question);
 
+  if (!config) {
