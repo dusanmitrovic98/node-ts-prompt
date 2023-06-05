@@ -31,3 +31,4 @@ async function prompt(
       console.log('User responded with "yes"');
     } else if (response === "n") {
       console.log('User responded with "no"');
+    } else {
