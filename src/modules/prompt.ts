@@ -43,3 +43,4 @@ async function prompt(
   const isValidResponse = keys.includes(response);
 
   if (isValidResponse) {
+    config[response]();
