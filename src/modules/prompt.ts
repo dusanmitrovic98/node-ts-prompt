@@ -10,3 +10,4 @@ async function ask(question: string): Promise<string> {
     rl.question(question, (answer) => {
       rl.close();
       resolve(answer);
+    });
