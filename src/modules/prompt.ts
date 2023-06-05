@@ -14,3 +14,4 @@ async function ask(question: string): Promise<string> {
   });
 }
 
+async function getAnswer(question: string): Promise<string> {
