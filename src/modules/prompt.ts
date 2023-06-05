@@ -45,3 +45,8 @@ async function prompt(
   if (isValidResponse) {
     config[response]();
   } else {
+    console.log("Invalid response.");
+  }
+}
+
+export default prompt;
