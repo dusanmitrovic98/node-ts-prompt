@@ -5,3 +5,4 @@ async function ask(question: string): Promise<string> {
     input: process.stdin,
     output: process.stdout,
   });
+
