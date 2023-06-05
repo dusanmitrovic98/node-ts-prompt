@@ -8,4 +8,5 @@ const config = {
   customYes: () => {
     // Code to execute when the response is 'customYes'
   },
+  customNo: () => {},
 };
