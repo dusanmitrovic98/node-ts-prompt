@@ -11,3 +11,4 @@ async function ask(question: string): Promise<string> {
       rl.close();
       resolve(answer);
     });
+  });
