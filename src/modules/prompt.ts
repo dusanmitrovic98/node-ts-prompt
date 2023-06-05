@@ -24,3 +24,4 @@ async function prompt(
   question: string,
   config?: { [key: string]: any }
 ): Promise<void> {
+  const response: any = await getAnswer(question);
