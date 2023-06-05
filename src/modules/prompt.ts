@@ -41,3 +41,4 @@ async function prompt(
   let keys: string[] = Object.keys(config);
 
   const isValidResponse = keys.includes(response);
+
