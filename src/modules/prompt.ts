@@ -44,3 +44,4 @@ async function prompt(
 
   if (isValidResponse) {
     config[response]();
+  } else {
