@@ -20,3 +20,4 @@ async function getAnswer(question: string): Promise<string> {
   return response.toLowerCase().trim();
 }
 
+async function prompt(
