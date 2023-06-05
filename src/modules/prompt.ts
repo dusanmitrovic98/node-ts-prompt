@@ -18,3 +18,4 @@ async function getAnswer(question: string): Promise<string> {
   const response = await ask(question);
 
   return response.toLowerCase().trim();
+}
