@@ -35,3 +35,4 @@ async function prompt(
       console.log("Invalid response");
     }
 
+    return;
