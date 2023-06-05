@@ -11,4 +11,5 @@ const config = {
   customNo: () => {
     // Code to execute when the response is 'customNo'
   },
+  // Add as many options as needed
 };
