@@ -38,3 +38,4 @@ async function prompt(
     return;
   }
 
+  let keys: string[] = Object.keys(config);
