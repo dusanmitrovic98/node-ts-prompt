@@ -33,3 +33,4 @@ async function prompt(
       console.log('User responded with "no"');
     } else {
       console.log("Invalid response");
+    }
