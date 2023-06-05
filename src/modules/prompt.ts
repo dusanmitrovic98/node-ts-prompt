@@ -6,3 +6,4 @@ async function ask(question: string): Promise<string> {
     output: process.stdout,
   });
 
+  return new Promise<string>((resolve) => {
