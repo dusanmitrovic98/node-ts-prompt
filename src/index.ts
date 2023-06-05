@@ -13,3 +13,5 @@ const config = {
   },
   // Add as many options as needed
 };
+
+prompt("Are you sure? [customYes/customNo]: ", config).then(() => {});
