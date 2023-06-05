@@ -32,3 +32,4 @@ async function prompt(
     } else if (response === "n") {
       console.log('User responded with "no"');
     } else {
+      console.log("Invalid response");
