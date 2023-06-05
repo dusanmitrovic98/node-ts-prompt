@@ -27,3 +27,4 @@ async function prompt(
   const response: any = await getAnswer(question);
 
   if (!config) {
+    if (response === "y") {
