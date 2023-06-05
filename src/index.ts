@@ -5,5 +5,7 @@ prompt("Are you sure? [y/n]: ").then(() => {
 });
 
 const config = {
-  customYes: () => {},
+  customYes: () => {
+    // Code to execute when the response is 'customYes'
+  },
 };
