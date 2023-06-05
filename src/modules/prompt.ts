@@ -8,3 +8,4 @@ async function ask(question: string): Promise<string> {
 
   return new Promise<string>((resolve) => {
     rl.question(question, (answer) => {
+      rl.close();
