@@ -28,3 +28,4 @@ async function prompt(
 
   if (!config) {
     if (response === "y") {
+      console.log('User responded with "yes"');
