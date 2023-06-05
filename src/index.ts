@@ -14,4 +14,6 @@ const config = {
   // Add as many options as needed
 };
 
-prompt("Are you sure? [customYes/customNo]: ", config).then(() => {});
+prompt("Are you sure? [customYes/customNo]: ", config).then(() => {
+  // Code to execute after the response is received
+});
