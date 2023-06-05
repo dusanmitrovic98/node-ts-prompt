@@ -22,3 +22,4 @@ async function getAnswer(question: string): Promise<string> {
 
 async function prompt(
   question: string,
+  config?: { [key: string]: any }
